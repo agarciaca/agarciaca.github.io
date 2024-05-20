@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('img/mewbg2.png') ;
+    background-size: 30%;
+    background-position: top 10%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 90%;
+    margin: 0px auto;
+}
+header h1{
+    background-image: url('img/pkmheader.jpg');
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    line-height: 200px;
+    color: #000;
+    border-bottom: 10px solid #ffffff;
+    font-size: 50px;
+}
+nav{
+    background: #000;
+    height: 50px;
+    border-bottom: 50px solid #ffffff;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    display: block;
+}
+.introduccion{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 700px;
+    padding: 100px; 
+}
+.clear{
+    clear: both;
+}
+#contenido{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: #ffffff;
+    padding: 40px;
+}
+.article{
+    display: flex;
+    align-items: center;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.article img {
+    width: 5%;
+    height: auto;
+    margin-right: 20px;
+}
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    background: #039ee6;
+    padding: 10px;
+}
+
+
+footer{
+    background: #000;
+    color: #ffffff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+a:link {
+    color: #ffffff; /* Color predeterminado para enlaces no visitados */
+    text-decoration: none; /* Eliminar subrayado */
+}
+a:visited {
+    color: #ffffff; /* Color para enlaces visitados */
+}
+.infoContacto {
+    text-align: center;
+}
+.divInfo h1{
+    background-color: grey; 
+    color: white;
+}
+.divInfo table{
+    position: relative; 
+    width: 50%; 
+    text-align: left; 
+    table-layout: fixed;
+}
